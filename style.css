@@ -1,0 +1,22 @@
+.carousel{
+    width: 700px;
+    margin-top: 10px;
+}
+.container{
+  display: flex;
+  gap: 20px; 
+  max-width: 1400px;
+}
+.feature{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+.feature-title{
+    display: flex;
+    grid-column: span 3;
+    margin-top: 50px;
+    justify-content: center;
+}
+
