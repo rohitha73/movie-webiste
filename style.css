@@ -1,3 +1,10 @@
+body{
+    background-color: black;
+}
+.container-fluid{
+    background-color: yellow;
+    padding: 5px;
+}
 .carousel{
     width: 700px;
     margin-top: 10px;
@@ -15,8 +22,57 @@
 }
 .feature-title{
     display: flex;
-    grid-column: span 3;
+    grid-column: span 5;
     margin-top: 50px;
     justify-content: center;
+}
+.most-popular{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 5px;
+}
+.movie-title{
+    display: flex;
+    grid-column: span 6;
+    margin-top: 50px;
+    justify-content: center;
+}
+.feature img{
+    width:  200px;
+    height: 300px;
+    object-fit: cover;
+}
+.most-popular img{
+    width:  200px;
+    height: 300px;
+    object-fit: cover;
+}
+h2{
+    color: yellow;
+    font-weight: bold;
+}
+.carousel .c-block{
+    width:  300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.table-set{
+    background-color: yellow;
+    border-radius: 20px;
+    width: 150%;
+    margin-bottom: 20px;
+}
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+.container-2{
+    margin: 10px;
+}
+.btn{
+    background-color: yellow;
+    color: black;
 }
 
