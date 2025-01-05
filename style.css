@@ -43,10 +43,22 @@ body{
     height: 300px;
     object-fit: cover;
 }
+.feature img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
 .most-popular img{
     width:  200px;
     height: 300px;
     object-fit: cover;
+}
+.most-popular img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
 }
 h2{
     color: yellow;
